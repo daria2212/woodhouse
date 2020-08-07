@@ -1,0 +1,64 @@
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Avenir Next", Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: #D2DEDA;
+  background-color: #00100E;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+ul,h1,h2,h3,h4,h5,h6,p {
+  @include reset-style;
+}
+
+a {
+  color: #D2DEDA;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.button {
+    display: block;
+    padding: 17px 20px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 14px;
+    color: #D2DEDA;
+    background: linear-gradient(180deg, #007A6F 0%, #004943 100%);
+    border-radius: 10px;
+    width: 250px;
+    border: none;
+    cursor: pointer;
+    &:hover {
+      box-shadow: inset 0px 0px 15px rgba(210, 222, 218, 0.4);
+      transition: .6s;
+    }
+}
