@@ -21,8 +21,8 @@ body {
   font-family: "Avenir Next", Arial, sans-serif;
   font-size: 22px;
   font-weight: 500;
-  color: #D2DEDA;
-  background-color: #00100E;
+  color: $light;
+  background-color: $dark;
 }
 
 *,
@@ -36,25 +36,26 @@ ul,h1,h2,h3,h4,h5,h6,p {
 }
 
 a {
-  color: #D2DEDA;
+  color: $light;
   text-decoration: none;
 }
 
 .container {
   max-width: 1180px;
   margin: 0 auto;
+  padding: 20px;
 }
 
 .button {
     display: block;
-    padding: 17px 20px;
+    padding: 11px 20px;
     text-align: center;
-    font-size: 14px;
-    line-height: 14px;
-    color: #D2DEDA;
+    font-size: 13px;
+    line-height: 18px;
+    color: $light;
     background: linear-gradient(180deg, #007A6F 0%, #004943 100%);
     border-radius: 10px;
-    width: 250px;
+    width: 200px;
     border: none;
     cursor: pointer;
     &:hover {

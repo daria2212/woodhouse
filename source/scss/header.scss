@@ -1,0 +1,54 @@
+.logo {
+    &__text {
+        position: relative;
+        top: -5px;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 18px;
+    }
+}
+
+.top-bar {
+    margin-bottom: 54px;
+}
+
+.header {
+    &__title {
+        margin-bottom: 15px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 32px;
+    }
+    &__subtitle {
+        margin-bottom: 20px;
+        white-space: pre-line;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+    }
+    &__button {
+        margin: 0 auto;
+        margin-bottom: 18px;
+    }
+}
+
+.header-slider__item {
+    position: relative;
+}
+
+.header-slider__img {
+    width: 100%;
+    height: auto;
+}
+
+.slick-dots {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    display: flex;
+    width: 120px;
+    height: 35px;
+    background-color: rgba(210, 222, 218, 0.9);
+}
