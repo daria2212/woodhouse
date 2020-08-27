@@ -16,6 +16,7 @@
     &__title {
         margin-bottom: 15px;
         text-align: center;
+        white-space: pre-line;
         font-weight: 500;
         font-size: 28px;
         line-height: 32px;
@@ -43,12 +44,51 @@
     height: auto;
 }
 
+.slick-arrow {
+    position: absolute;
+    bottom: 14px;
+}
+.left {
+    left: 5px;
+    z-index: 9;
+}
+.right {
+    left: 95px;
+    z-index: 9;
+}
+
 .slick-dots {
     position: absolute;
     left: 0;
-    bottom: 30px;
+    bottom: 6px;
     display: flex;
     width: 120px;
     height: 35px;
-    background-color: rgba(210, 222, 218, 0.9);
+    background: rgba(210, 222, 218, 0.9);
+    button {
+        display: none;
+        padding: 0 10px;
+        background-color: transparent;
+        border: none;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
+.slick-active {
+    button {
+        display: block;
+        position: absolute;
+        top: 10px;
+        left: 41%;
+        transform: translateX(-50%);
+        &:after {
+            position: absolute;
+            content: ' | 3';
+            top: 0px;
+            left: 19px;
+            width: 15px;
+        }
+    }
 }

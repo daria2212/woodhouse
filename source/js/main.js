@@ -12,6 +12,8 @@ menuBtn.addEventListener('click', function (evt) {
 $('.header-slider').slick({
     infinite: false,
     dots: true,
-    prevArrow: '<img src="images/left.svg" width="20" height="15">',
-    nextArrow: '<img src="images/right.svg" width="20" height="15">'
+    speed: 500,
+    prevArrow: '<img class="left" src="images/left.svg" width="20" height="15">',
+    nextArrow: '<img class="right" src="images/right.svg" width="20" height="15">',
+    infinite: true
 });
