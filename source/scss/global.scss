@@ -13,6 +13,10 @@ input[type="radio"].visually-hidden {
   overflow: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   min-width: 320px;
   margin: 0;
@@ -62,4 +66,10 @@ a {
       box-shadow: inset 0px 0px 15px rgba(210, 222, 218, 0.4);
       transition: .6s;
     }
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 30px;
+  }
 }
