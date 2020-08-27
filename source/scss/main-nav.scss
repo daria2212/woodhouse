@@ -35,14 +35,14 @@
 
 .toggle {
     position: absolute;
-    top: 40px;
+    top: 50px;
     right: 20px;
     font-size: 0;
     z-index: 4;
 }
 
 .toggle--opened {
-    top: 25px;
+    top: 35px;
     right: 28px;
     padding: 0;
     width: 21px;
@@ -158,4 +158,10 @@
             }
         }
     }
+}
+
+@media (min-width: $desktop-width) {
+    .top-bar {
+        margin-bottom: 112px;
+    } 
 }

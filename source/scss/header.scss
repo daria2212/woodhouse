@@ -1,3 +1,6 @@
+.header {
+    padding-bottom: 30px;
+}
 .logo {
     &__text {
         position: relative;
@@ -9,6 +12,7 @@
 }
 
 .top-bar {
+    padding-top: 30px;
     margin-bottom: 54px;
 }
 
@@ -35,6 +39,10 @@
     }
 }
 
+.header-slider {
+    padding: 0 20px;
+}
+
 .header-slider__item {
     position: relative;
 }
@@ -47,19 +55,20 @@
 .slick-arrow {
     position: absolute;
     bottom: 14px;
+    cursor: pointer;
 }
 .left {
-    left: 5px;
+    left: 25px;
     z-index: 9;
 }
 .right {
-    left: 95px;
+    left: 115px;
     z-index: 9;
 }
 
 .slick-dots {
     position: absolute;
-    left: 0;
+    left: 20px;
     bottom: 6px;
     display: flex;
     width: 120px;
@@ -80,15 +89,136 @@
     button {
         display: block;
         position: absolute;
-        top: 10px;
+        top: 11px;
         left: 41%;
         transform: translateX(-50%);
         &:after {
             position: absolute;
-            content: ' | 3';
+            content: " | 3";
             top: 0px;
             left: 19px;
             width: 15px;
+        }
+    }
+}
+
+@media (min-width: $tablet-width) {
+    .header {
+        padding-bottom: 40px;
+        &__content {
+            display: flex;
+            justify-content: space-between;
+            align-content: center;
+            padding-left: 30px;
+        }
+        &__slider {
+            overflow: hidden;
+            padding: 0;
+        }
+        &__info {
+            padding-right: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        &__title {
+            text-align: left;
+            font-size: 24px;
+            line-height: 120%;
+        }
+        &__subtitle {
+            font-size: 13px;
+            line-height: 17px;
+            text-align: left;
+        }
+        &__button {
+            margin: 0;
+        }
+    }
+    .slick-dots {
+        left: 0;
+    }
+    .left {
+        left: 5px;
+    }
+    .right {
+        left: 95px;
+    }
+}
+
+@media (min-width: $large-tablet-width) {
+    .header {
+        &__content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            max-width: 1180px;
+            margin: 0 auto;
+        }
+        &__info {
+            padding-right: 0;
+        }
+        &__title {
+            margin-bottom: 40px;
+            font-size: 48px;
+            line-height: 120%;
+        }
+        &__subtitle {
+            margin-bottom: 40px;
+            width: 522px;
+            white-space: unset;
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .header {
+        padding-bottom: 108px;
+        &__content {
+            max-width: 1440px;
+        }
+        &__info {
+            padding-left: 98px;
+        }
+        &__title {
+            font-size: 52px;
+            line-height: 120%;
+        }
+        &__subtitle {
+            font-size: 22px;
+            line-height: 30px;
+        }
+    }
+    .slick-dots {
+        width: 190px;
+        height: 50px;
+        button {
+            font-size: 16px;
+            line-height: 19px;
+        }
+    }
+    .slick-arrow {
+        bottom: 24px;
+    }
+    .left,
+    .right {
+        width: 35px;
+        height: auto;
+    }
+    .left {
+        left: 24px;
+    }
+    .right {
+        left: 127px;
+    }
+    .slick-active {
+        button {
+            top: 16px;
+            &:after {
+                left: 22px;
+                width: 20px;
+            }
         }
     }
 }
