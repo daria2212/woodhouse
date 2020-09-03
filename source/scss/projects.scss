@@ -1,0 +1,47 @@
+.projects {
+    padding: 22px 0 45px;
+    &__title {
+        margin-bottom: 32px;
+    }
+    &__info {
+        display: none;
+    }
+    &__list {
+        margin-bottom: 48px;
+    }
+    &__item {
+        margin-bottom: 25px;
+        cursor: pointer;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    &__img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+    &__button {
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: $tablet-width) {
+    .projects {
+        padding: 40px 0 60px;
+        &__list {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        &__item {
+            margin-bottom: 20px;
+            width: calc(97%/3);
+            &:nth-child(4),
+            &:nth-child(5) {
+                margin-bottom: 0px;
+                width: calc(97%/2);
+            }
+        }
+    }
+}
