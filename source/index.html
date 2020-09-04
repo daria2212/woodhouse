@@ -227,8 +227,7 @@
                         <line class="animate__animated animate__fadeInUp animate__delay-5s animate__faster" x1="49.5"
                             y1="31" x2="49.5" y2="36" stroke="#007A6F" />
                     </svg>
-                    <span
-                        class="logo__text animate__animated animate__fadeInLeft animate__delay-5s">WoodHouse</span>
+                    <span class="logo__text animate__animated animate__fadeInLeft animate__delay-5s">WoodHouse</span>
                 </div>
                 <button class="toggle toggle--closed">Меню</button>
                 <nav class="main-nav main-nav--closed">
@@ -252,30 +251,30 @@
                 </nav>
             </div>
         </div>
-            <div class="header__content">
-                <div class="header__info">
-                    <h1 class="header__title">Строительство
-                        каркасных домов</h1>
-                    <h2 class="header__subtitle">Производство и строительство
-                        домов любой сложности
-                        по индивидуальным проектам</h2>
-                    <button class="header__button button">Заказать консультацию</button>
-                </div>
-                <ul class="header__slider header-slider">
-                    <li class="header-slider__item">
-                        <img class="header-slider__img" src="images/house-1@1x.jpg" srcset="images/house-1@2x.jpg 2x"
-                            alt="Фотография дома">
-                    </li>
-                    <li class="header-slider__item">
-                        <img class="header-slider__img" src="images/house-2@1x.jpg" srcset="images/house-2@2x.jpg 2x"
-                            alt="Фотография дома">
-                    </li>
-                    <li class="header-slider__item">
-                        <img class="header-slider__img" src="images/house-3@1x.jpg" srcset="images/house-3@2x.jpg 2x"
-                            alt="Фотография дома">
-                    </li>
-                </ul>
+        <div class="header__content">
+            <div class="header__info">
+                <h1 class="header__title">Строительство
+                    каркасных домов</h1>
+                <h2 class="header__subtitle">Производство и строительство
+                    домов любой сложности
+                    по индивидуальным проектам</h2>
+                <button class="header__button button">Заказать консультацию</button>
             </div>
+            <ul class="header__slider header-slider">
+                <li class="header-slider__item">
+                    <img class="header-slider__img" src="images/house-1@1x.jpg" srcset="images/house-1@2x.jpg 2x"
+                        alt="Фотография дома">
+                </li>
+                <li class="header-slider__item">
+                    <img class="header-slider__img" src="images/house-2@1x.jpg" srcset="images/house-2@2x.jpg 2x"
+                        alt="Фотография дома">
+                </li>
+                <li class="header-slider__item">
+                    <img class="header-slider__img" src="images/house-3@1x.jpg" srcset="images/house-3@2x.jpg 2x"
+                        alt="Фотография дома">
+                </li>
+            </ul>
+        </div>
     </header>
 
     <main>
@@ -284,11 +283,11 @@
                 <h2 class="about__title title">О компании</h2>
                 <div class="about__info">
                     <p class="about__text">С момента основания нами построено более 500 домов. Большой
-                        опыт в загородном строительстве сформировал понимание, как 
-                        должен выглядеть дом для постоянного проживания, где новые 
+                        опыт в загородном строительстве сформировал понимание, как
+                        должен выглядеть дом для постоянного проживания, где новые
                         хозяева будут чувствовать себя лучше чем в квартире.</p>
                     <p class="about__text">Есть свой отдел проектирования
-                        и собственные бригады, что 
+                        и собственные бригады, что
                         позволяет максимально качественно работать над каждым проектом.</p>
                 </div>
                 <ul class="about__list">
@@ -327,8 +326,12 @@
                 <h2 class="projects__title title">Проекты</h2>
                 <ul class="projects__list">
                     <li class="projects__item">
-                        <img class="projects__img" src="images/project-1@1x.jpg" srcset="images/project-1@2x.jpg 2x"
-                            alt="Фото проекта">
+                        <picture>
+                            <source type="image/jpeg" media="(min-width: 1240px)"
+                                srcset="images/project-1-dt@1x.jpg 1x, images/project-1-dt@2x.jpg 2x">
+                            <img class="projects__img" src="images/project-1@1x.jpg" srcset="images/project-1@2x.jpg 2x"
+                                alt="Фото проекта">
+                        </picture>
                         <div class="projects__info projects-info">
                             <h3 class="projects-info__title">Проект Тампере</h3>
                             <div class="projects-info__spec">
@@ -345,8 +348,12 @@
                         </div>
                     </li>
                     <li class="projects__item">
-                        <img class="projects__img" src="images/project-2@1x.jpg" srcset="images/project-2@2x.jpg 2x"
-                            alt="Фото проекта">
+                        <picture>
+                            <source type="image/jpeg" media="(min-width: 1240px)"
+                                srcset="images/project-2-dt@1x.jpg 1x, images/project-2-dt@2x.jpg 2x">
+                            <img class="projects__img" src="images/project-2@1x.jpg" srcset="images/project-2@2x.jpg 2x"
+                                alt="Фото проекта">
+                        </picture>
                         <div class="projects__info projects-info">
                             <h3 class="projects-info__title">Проект Тампере</h3>
                             <div class="projects-info__spec">
@@ -363,8 +370,12 @@
                         </div>
                     </li>
                     <li class="projects__item">
-                        <img class="projects__img" src="images/project-3@1x.jpg" srcset="images/project-3@2x.jpg 2x"
-                            alt="Фото проекта">
+                        <picture>
+                            <source type="image/jpeg" media="(min-width: 1240px)"
+                                srcset="images/project-3-dt@1x.jpg 1x, images/project-3-dt@2x.jpg 2x">
+                            <img class="projects__img" src="images/project-3@1x.jpg" srcset="images/project-3@2x.jpg 2x"
+                                alt="Фото проекта">
+                        </picture>
                         <div class="projects__info projects-info">
                             <h3 class="projects-info__title">Проект Тампере</h3>
                             <div class="projects-info__spec">
@@ -381,8 +392,12 @@
                         </div>
                     </li>
                     <li class="projects__item">
-                        <img class="projects__img" src="images/project-4@1x.jpg" srcset="images/project-4@2x.jpg 2x"
-                            alt="Фото проекта">
+                        <picture>
+                            <source type="image/jpeg" media="(min-width: 1240px)"
+                                srcset="images/project-4-dt@1x.jpg 1x, images/project-4-dt@2x.jpg 2x">
+                            <img class="projects__img" src="images/project-4@1x.jpg" srcset="images/project-4@2x.jpg 2x"
+                                alt="Фото проекта">
+                        </picture>
                         <div class="projects__info projects-info">
                             <h3 class="projects-info__title">Проект Тампере</h3>
                             <div class="projects-info__spec">
@@ -399,8 +414,12 @@
                         </div>
                     </li>
                     <li class="projects__item">
-                        <img class="projects__img" src="images/project-5@1x.jpg" srcset="images/project-5@2x.jpg 2x"
-                            alt="Фото проекта">
+                        <picture>
+                            <source type="image/jpeg" media="(min-width: 1240px)"
+                                srcset="images/project-5-dt@1x.jpg 1x, images/project-5-dt@2x.jpg 2x">
+                            <img class="projects__img" src="images/project-5@1x.jpg" srcset="images/project-5@2x.jpg 2x"
+                                alt="Фото проекта">
+                        </picture>
                         <div class="projects__info projects-info">
                             <h3 class="projects-info__title">Проект Тампере</h3>
                             <div class="projects-info__spec">
