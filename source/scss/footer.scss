@@ -1,0 +1,21 @@
+.footer {
+    padding: 22px 0 40px;
+}
+
+.info {
+    margin-bottom: 55px;
+    &__text {
+        margin-bottom: 18px;
+        white-space: pre-line;
+        font-size: 18px;
+        line-height: 120%;
+        text-align: center;
+        letter-spacing: -0.02em;
+    }
+    &__link {
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        line-height: 130%;
+    }
+}
