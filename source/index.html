@@ -622,8 +622,12 @@
 
     <section class="modal-project">
         <div class="modal-project__inner">
-            <img class="modal-project__img" src="images/modal-project-1@1x.jpg"
+            <picture>
+                <source type="image/jpeg" media="(min-width: 768px)"
+                srcset="images/modal-project-1-dt@1x.jpg 1x, images/modal-project-1-dt@2x.jpg 2x">
+                <img class="modal-project__img" src="images/modal-project-1@1x.jpg"
                 srcset="images/modal-project-1@2x.jpg 2x" alt="Фото проекта" width="240">
+            </picture>
             <h2 class="modal-project__title">Проект “Коувола”</h2>
             <p class="modal-project__text">Общая площадь двухэтажного дома 180 м<sup>2</sup>. Терраса 30 м<sup>2</sup>.
                 Каркас капитальных стен дома – стойки, раскосы, пояса, сухая доска 50*150 мм, расстояние между стоек 590
