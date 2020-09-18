@@ -84,3 +84,7 @@ window.addEventListener("keydown", function (evt) {
     overlay.classList.remove("overlay-show");
   }
 });
+
+// Wow animations
+
+new WOW().init();
