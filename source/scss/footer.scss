@@ -19,3 +19,131 @@
         line-height: 130%;
     }
 }
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 55px;
+    width: 158px;
+    svg {
+        fill: $light-green;
+    }
+    span {
+        display: none;
+    }
+}
+
+.copy {
+    text-align: center;
+    &__img {
+        margin-bottom: 9px;
+    }
+    &__text {
+        font-size: 14px;
+        line-height: 110%;
+    }
+    &__link {
+        font-size: 14px;
+        line-height: 110%;
+    }
+}
+
+@media (min-width: $tablet-width) {
+    .footer {
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 0;
+        order: 1;
+        &__text {
+            margin-bottom: 8px;
+            white-space: nowrap;
+            text-align: left;
+            font-size: 13px;
+        }
+        &__link {
+            text-align: left;
+            font-size: 16px;
+        }
+    }
+    .social {
+        margin: 0;
+        margin-bottom: 0;
+        order: 3;
+    }
+    .copy {
+        text-align: left;
+    }
+}
+
+@media (min-width: $large-tablet-width) {
+    .footer {
+        padding: 55px 0;
+    }
+    .copy {
+        &__text {
+            font-size: 16px;
+        }
+        &__link {
+            font-size: 16px;
+            &:hover {
+                color: $light-green;
+                transition: .4s;
+            }
+        }
+    }
+    .info {
+        &__text {
+            font-size: 20px;
+            line-height: 130%;
+        }
+        &__link {
+            font-size: 20px;
+            line-height: 130%;
+            &:hover {
+                color: $light-green;
+                transition: .4s;
+            }
+        }
+    }
+    .social {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        width: auto;
+        &__item {
+            margin-bottom: 7px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+            &:nth-child(3) {
+                span {
+                    margin-left: 18px;
+                }
+            }
+        }
+        &__link {
+            display: flex;
+            align-items: center;
+            &:hover {
+                color: $light-green;
+                transition: .4s;
+            }
+        }
+        span {
+            display: block;
+            margin-left: 22px;
+            font-size: 20px;
+            line-height: 124.5%;
+            text-decoration: underline;
+        }
+    }
+}
