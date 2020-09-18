@@ -9,5 +9,5 @@ Thumbs.db
 *.ai
 *.pdf
 css/*.css
-dist/
+build/
 package-lock.json
