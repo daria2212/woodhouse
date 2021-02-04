@@ -24,8 +24,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
-    margin-bottom: 55px;
+    margin: 0 auto 55px;
     width: 158px;
     svg {
         fill: $light-green;
@@ -76,7 +75,6 @@
     }
     .social {
         margin: 0;
-        margin-bottom: 0;
         order: 3;
     }
     .copy {
@@ -94,9 +92,9 @@
         }
         &__link {
             font-size: 16px;
+            transition: all .4s ease-in-out;
             &:hover {
                 color: $light-green;
-                transition: .4s;
             }
         }
     }
@@ -108,9 +106,9 @@
         &__link {
             font-size: 20px;
             line-height: 130%;
+            transition: all .4s ease-in-out;
             &:hover {
                 color: $light-green;
-                transition: .4s;
             }
         }
     }
@@ -133,9 +131,9 @@
         &__link {
             display: flex;
             align-items: center;
+            transition: all .4s ease-in-out;
             &:hover {
                 color: $light-green;
-                transition: .4s;
             }
         }
         span {
@@ -143,7 +141,6 @@
             margin-left: 22px;
             font-size: 20px;
             line-height: 124.5%;
-            text-decoration: underline;
         }
     }
 }

@@ -1,4 +1,5 @@
 node_modules/
+build/
 .DS_Store
 Thumbs.db
 .idea
@@ -9,5 +10,4 @@ Thumbs.db
 *.ai
 *.pdf
 css/*.css
-build/
 package-lock.json

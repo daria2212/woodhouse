@@ -149,11 +149,21 @@
         justify-content: flex-end;
         &__item {
             a {
+                position: relative;
                 font-size: 22px;
                 line-height: 30px;
+                &:after {
+                    display: block;
+                    content: "";
+                    border-bottom: 2px solid $light-green;
+                    transform: scaleX(0);
+                    transition: all 0.4s ease-in-out;
+                    transform-origin: 0 50%;
+                }
                 &:hover {
-                    text-decoration: underline;
-                    transition: all 0.6s;
+                    &:after {
+                        transform: scaleX(1);
+                    }
                 }
             }
         }
@@ -163,5 +173,5 @@
 @media (min-width: $desktop-width) {
     .top-bar {
         margin-bottom: 112px;
-    } 
+    }
 }
