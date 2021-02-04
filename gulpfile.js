@@ -54,12 +54,12 @@ gulp.task('libs', function (){
     .pipe(uglify())
     .pipe(gulp.dest('source/js'))
     .pipe(browserSync.reload({ stream: true }))
-})
+});
 
 gulp.task('watch', function () {
-    gulp.watch('source/scss/**/*.scss', gulp.parallel('scss'))
-    gulp.watch('source/*.html', gulp.parallel('html'))
-    gulp.watch('source/js/*.js', gulp.parallel('js'))
+    gulp.watch('source/scss/**/*.scss', gulp.parallel('scss'));
+    gulp.watch('source/*.html', gulp.parallel('html'));
+    gulp.watch('source/js/*.js', gulp.parallel('js'));
 });
 
 gulp.task('browser-sync', function () {
@@ -76,19 +76,19 @@ gulp.task('clean', async function () {
 
 gulp.task('export', function () {
     const buildHtml = gulp.src('source/**/*html')
-        .pipe(gulp.dest('build'))
+        .pipe(gulp.dest('build'));
 
     const buildCss = gulp.src('source/css/**/*css')
-        .pipe(gulp.dest('build/css'))
+        .pipe(gulp.dest('build/css'));
 
     const buildJs = gulp.src('source/js/**/*js')
-        .pipe(gulp.dest('build/js'))
+        .pipe(gulp.dest('build/js'));
 
     const buildFonts = gulp.src('source/fonts/**/*.*')
-        .pipe(gulp.dest('build/fonts'))
+        .pipe(gulp.dest('build/fonts'));
 
     const webp = gulp.src('source/images/*.{webp,ico}')
-        .pipe(gulp.dest('build/images'))
+        .pipe(gulp.dest('build/images'));
 
     const icons = gulp.src('source/images/icons/sprite.svg')
         .pipe(gulp.dest('build/images/icons'))
@@ -146,7 +146,6 @@ gulp.task('webp', function () {
         .pipe(gulp.dest('source/images'))
         .pipe(browserSync.reload({ stream: true }))
 });
-
 
 
 gulp.task('build', gulp.series('clean', 'images', 'script', 'svg', 'export'));
