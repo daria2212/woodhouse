@@ -1,0 +1,13 @@
+node_modules/
+build/
+.DS_Store
+Thumbs.db
+.idea
+*.sublime*
+*.log
+*.psd
+*.fig
+*.ai
+*.pdf
+css/*.css
+package-lock.json

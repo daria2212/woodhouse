@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2bb83937-d14b-4a26-ba15-7d556c6e3f1e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/css/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/AvenirNextCyr-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/AvenirNextCyr-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/AvenirNextCyr-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/AvenirNextCyr-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/about-bg-desktop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/about-bg-desktop.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/about-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/about-bg.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/house-1@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/house-1@1x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/house-1@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/house-1@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/house-2@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/house-2@1x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/house-2@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/house-2@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/house-3@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/house-3@1x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/house-3@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/house-3@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icons/sprite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/modal-project-1-dt@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/modal-project-1-dt@1x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/modal-project-1-dt@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/modal-project-1-dt@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/modal-project-1@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/modal-project-1@1x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/modal-project-1@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/modal-project-1@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-1-dt@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-1-dt@1x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-1-dt@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-1-dt@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-1@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-1@1x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-1@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-1@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-2-dt@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-2-dt@1x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-2-dt@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-2-dt@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-2@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-2@1x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-2@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-2@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-3-dt@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-3-dt@1x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-3-dt@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-3-dt@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-3@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-3@1x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-3@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-3@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-4-dt@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-4-dt@1x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-4-dt@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-4-dt@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-4@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-4@1x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-4@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-4@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-5-dt@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-5-dt@1x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-5-dt@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-5-dt@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-5@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-5@1x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-5@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-5@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/service-1@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/service-1@1x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/service-1@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/service-1@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/service-2@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/service-2@1x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/service-2@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/service-2@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/service-3@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/service-3@1x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/service-3@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/service-3@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/service-4@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/service-4@1x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/service-4@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/service-4@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/service-5@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/service-5@1x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/service-5@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/service-5@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/service-6@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/service-6@1x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/service-6@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/service-6@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/libs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" />
+    </list>
+    <list id="f3f5586a-b03b-4c94-b082-96c2551a5053" name="added and fix decoration on links" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1o1Cri7NxtIOEWGTsBPXDboWHup" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2bb83937-d14b-4a26-ba15-7d556c6e3f1e" name="Default Changelist" comment="" />
+      <changelist id="f3f5586a-b03b-4c94-b082-96c2551a5053" name="added and fix decoration on links" comment="" />
+      <created>1612444910009</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612444910009</updated>
+      <workItem from="1612444914029" duration="3681000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1657" height="264" key="GridCell.Tab.0.bottom" timestamp="1612447246868">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1657" height="264" key="GridCell.Tab.0.bottom/0.23.1680.980@0.23.1680.980" timestamp="1612447246868" />
+    <state width="1657" height="264" key="GridCell.Tab.0.center" timestamp="1612447246867">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1657" height="264" key="GridCell.Tab.0.center/0.23.1680.980@0.23.1680.980" timestamp="1612447246867" />
+    <state width="1657" height="264" key="GridCell.Tab.0.left" timestamp="1612447246866">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1657" height="264" key="GridCell.Tab.0.left/0.23.1680.980@0.23.1680.980" timestamp="1612447246866" />
+    <state width="1657" height="264" key="GridCell.Tab.0.right" timestamp="1612447246867">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1657" height="264" key="GridCell.Tab.0.right/0.23.1680.980@0.23.1680.980" timestamp="1612447246867" />
+    <state x="692" y="431" key="VCS.ChangelistChooser" timestamp="1612449655340">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state x="692" y="431" key="VCS.ChangelistChooser/0.23.1680.980@0.23.1680.980" timestamp="1612449655340" />
+  </component>
+</project>
